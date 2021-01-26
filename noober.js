@@ -8,6 +8,8 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
+  let passenger1Name = 'Tacos'
+
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
