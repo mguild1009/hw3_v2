@@ -7,7 +7,7 @@ function pageLoad() {
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
 
-  let passenger1Name = 'Tacos'
+  let passenger1Name = `Tacos`
 
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
