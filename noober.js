@@ -6,7 +6,6 @@ function pageLoad() {
   // is refreshed or reloaded, the 'ride' variable will contain something different
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
-  console.log(ride)
 
   let passenger1Name = 'Tacos'
 
