@@ -1,51 +1,6 @@
 function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
 
-  let  levelOfService = "tacos" 
- 
-
-  let passenger1Name 
-
-  console.log(passenger1Name)
- 
-  let passenger1Phone 
-  console.log(passenger1Phone )
- 
-  let passenger1NumberOfPassengers
-  console.log(passenger1NumberOfPassengers)
-
-  let passenger1PickupAddressLine1
-  console.log(passenger1PickupAddressLine1)
-
-  let passenger1PickupAddressLine2
-  console.log(passenger1PickupAddressLine1)
-  
-  
-  let passenger1DropoffAddressLine1
-  console.log(passenger1DropoffAddressLine1)
-  let passenger1DropoffAddressLine2
-  console.log(passenger1DropoffAddressLine2)
-  
-  let passenger2Name
-  let passenger2Phone
-  let passenger2NumberOfPassengers
-  
-  let passenger2PickupAddressLine1 
-  let passenger2PickupAddressLine2
-  
-  let passenger2DropoffAddressLine1 
-  let  passenger2DropoffAddressLine2
-  
-  let passenger3Name
-  let passenger3Phone
-  let passenger3NumberOfPassengers
-  
-  let passenger3PickupAddressLine1
-  let passenger3PickupAddressLine2
-  
-  let passenger3DropoffAddressLine1
-  let passenger3DropoffAddressLine2
-
 
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
   // the 'ride' variable contains data about a random ride (i.e. when the page)
@@ -53,10 +8,22 @@ function pageLoad() {
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
  
-  console.log(levelOfService)
+let passenger1 = ride[0]
+let passenger2 = ride[1]
+let passenger3 = ride[2]
 
+levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
 
- 
+IF (ride.length > 1) {
+  levelOfService = 'Noober Pool' 
+} else if (ride.purplerequested = true) {
+  levelOfService= 'Noober Purple'
+} else if (ride.numberOfPassengers > 3) {
+  levelOfService = 'Noober XL'
+} else {levelOfService= 'Noober X'}
+
+console.log(levelOfService)
+
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
@@ -71,5 +38,8 @@ function pageLoad() {
   // passenger3PickupAddressLine1, passenger3PickupAddressLine2
   // passenger3DropoffAddressLine1, passenger3DropoffAddressLine2
   
+
+
+
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 }
