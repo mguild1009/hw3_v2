@@ -13,6 +13,8 @@ let levelOfService
 function pageLoad() {  
 console.log(ride)
 
+// riders
+
 if (ride.length > 1 || ride[0]. numberOfPassengers ==1) {
   levelOfService= 'Noober Pool'
 } else if (ride.purplerequested = true) {
@@ -47,7 +49,7 @@ console.log(levelOfService)
   console.log(passenger1DropoffAddressLine2)
 
 
-  //passenger 2
+  //passenger 2 
 
   passenger2Name = ride[1].passengerDetails.first + ' ' + ride[1].passengerDetails.last
   console.log(passenger2Name)
