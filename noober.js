@@ -9,17 +9,26 @@ function pageLoad() {
 
 
   
-  let levelOfService = 'tacos'
+  let levelOfService  = 'tacos'
+  console.log(levelOfService)
 
   let passenger1Name
-  let passenger1Phone = '3'
+  console.log(passenger1Name)
+  let passenger1Phone 
+  console.log(passenger1Phone )
   let passenger1NumberOfPassengers
+  console.log(passenger1NumberOfPassengers)
 
   let passenger1PickupAddressLine1
+  console.log(passenger1PickupAddressLine1)
   let passenger1PickupAddressLine2
+  console.log(passenger1PickupAddressLine1)
+  
   
   let passenger1DropoffAddressLine1
+  console.log(passenger1DropoffAddressLine1)
   let passenger1DropoffAddressLine2
+  console.log(passenger1DropoffAddressLine2)
   
   let passenger2Name
   let passenger2Phone
