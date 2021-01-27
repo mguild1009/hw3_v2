@@ -1,18 +1,11 @@
 function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
 
-  // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
-  // the 'ride' variable contains data about a random ride (i.e. when the page)
-  // is refreshed or reloaded, the 'ride' variable will contain something different
-  // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
-  // e.g. ask 'ride' for its length or only grab the first member of the Array
+  let  levelOfService = "tacos" 
+ 
 
+  let passenger1Name 
 
-  
-  let levelOfService  = "xl"
-  console.log(levelOfService)
-
-  let passenger1Name = 'tacos'
   console.log(passenger1Name)
  
   let passenger1Phone 
@@ -53,6 +46,17 @@ function pageLoad() {
   let passenger3DropoffAddressLine1
   let passenger3DropoffAddressLine2
 
+
+  // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
+  // the 'ride' variable contains data about a random ride (i.e. when the page)
+  // is refreshed or reloaded, the 'ride' variable will contain something different
+  // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
+  // e.g. ask 'ride' for its length or only grab the first member of the Array
+ 
+  console.log(levelOfService)
+
+
+ 
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
