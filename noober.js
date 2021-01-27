@@ -1,4 +1,5 @@
-function pageLoad() {
+let levelOfService
+
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
 
 
@@ -8,9 +9,10 @@ function pageLoad() {
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
 
+
+function pageLoad() {  
 console.log(ride)
 
-levelOfService = ['Noober X', 'Noober Purple', 'Noober XL']
 if (ride.length > 1 || ride[0]. numberOfPassengers ==1) {
   levelOfService= 'Noober Pool'
 } else if (ride.purplerequested = true) {
@@ -18,6 +20,7 @@ if (ride.length > 1 || ride[0]. numberOfPassengers ==1) {
 } else if(ride.numberOfPassengers > 3) {
   levelOfService = 'Noober XL'
 } else(levelOfService = 'Noober X')
+console.log(levelOfService)
 
 let passenger1 = ride[0]
 let passenger2 = ride[1]
