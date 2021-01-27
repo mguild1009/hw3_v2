@@ -9,18 +9,21 @@ function pageLoad() {
 
 
   
-  let levelOfService  = 'tacos'
+  let levelOfService  = "xl"
   console.log(levelOfService)
 
-  let passenger1Name
+  let passenger1Name = 'tacos'
   console.log(passenger1Name)
+ 
   let passenger1Phone 
   console.log(passenger1Phone )
+ 
   let passenger1NumberOfPassengers
   console.log(passenger1NumberOfPassengers)
 
   let passenger1PickupAddressLine1
   console.log(passenger1PickupAddressLine1)
+
   let passenger1PickupAddressLine2
   console.log(passenger1PickupAddressLine1)
   
